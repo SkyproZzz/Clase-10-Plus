@@ -1,0 +1,5 @@
+IA utilizada: GitHub Copilot
+
+Prompts utilizados:
+1. "Quiero que reemplaces los colores y valores más comunes en el código usando variables, además de agregar media queries (@media) para tablets (768px) celulares (480px), en el nav del formato de celular tienen que quedar solamente los iconos y por ultimo crea un archivo que se llame Prompts.txt en el que se informe que IA se usó, además de los prompts usados"
+2. "Ok, está bien pero algunos detalles para solucionar son: 1. En el formato para celular y tablet, en el nav tenes que darle al icono o al texto para ingresar al link, cambialo para que incluya también la zona verde 2. Los botones de enviar y borrar formulario agrandalos dependiendo del formato, PC por defecto, en tablet un poco más grande y celular todavía más grande 3. Volve a colocar el color #9a1f40 en el nav, no te pedi que lo cambies y me gusta más con ese color 4. Agregar este prompt a Pormpts.txt y no tocar nada más de lo necesario"
