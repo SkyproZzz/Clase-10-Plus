@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="shortcut icon" href="./assets/Icons/web-development.png">
+        <!--Letras-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        
+        <!--CDN de Font Awesome para los íconos-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <nav>
+                <ul>
+                    <li><a href="contacto.html"> <i class="fa-solid fa-envelope fa-beat"></i> Contacto</a></li>
+                    <li><a href="index.html"> <i class="fa-solid fa-house-user fa-beat"></i> Inicio</a></li>
+                </ul>
+        </nav>
+
+        <section class="formulario">
+            <h2 Class="Contacto_h2">Contactate con nosotros</h2>
+            <form name="formulario" method="POST" action="">
+
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" id="nonbre" placeholder="Ingrese su nombre" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="ingrese su correo electrónico" required>
+
+                <label for="msg">Mensaje</label>
+                <textarea name="msg" id="msg" placeholder="deje su mensaje aquí...." rows="7"></textarea>
+
+                <button type="submit" class="guardar">Enviar la consulta</button>
+                <button type="reset" class="cancelar">Borrar los datos</button>
+            </form>
+        </section>
+
+        <footer>
+            <h4>&copy; Derechos reservados 2026</h4>
+        </footer>
+    </body>
+</html>
