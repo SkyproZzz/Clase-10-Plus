@@ -1,4 +1,5 @@
 :root {
+    /* Variables globales para colores, tipografías y espaciados */
     --color-primary: #9a1f40;
     --color-accent: #4caf50;
     --color-text: #333;
@@ -21,12 +22,14 @@
     --transition-standard: all 1s ease;
 }
 
+/* Reset básico para eliminar márgenes y paddings por defecto */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilo general del cuerpo y tipografía base */
 body {
     min-height: 100vh;
     padding-left: var(--nav-width);
@@ -35,20 +38,24 @@ body {
     line-height: 1.6;
 }
 
+/* Fondo visual compartido para las secciones principales */
 header, main, footer {
     background-image: url('../assets/Fondo/round.png');
 }
 
+/* Estilos para encabezados principales */
 h1, h2, h3 {
     font-family: var(--font-heading);
     font-size: var(--font-size-heading);
 }
 
+/* Cabecera con título principal */
 header {
     padding: var(--space-xs);
     text-align: center;
 }
 
+/* Menú lateral fijo */
 nav {
     position: fixed;
     z-index: 100;
@@ -65,6 +72,7 @@ nav ul {
     list-style: none;
 }
 
+/* Ítems del menú con efecto visual al pasar el mouse */
 nav li {
     padding: 0;
     color: var(--color-white);
@@ -81,6 +89,7 @@ nav li:first-child {
     font-weight: bold;
 }
 
+/* Enlaces del menú con íconos y texto */
 nav a {
     display: flex;
     width: 100%;
@@ -103,6 +112,7 @@ nav a img {
     margin-right: var(--space-xs);
 }
 
+/* Espaciado y contenido principal */
 main {
     padding: var(--space-md);
 }
@@ -116,6 +126,7 @@ p {
     font-size: var(--font-size-body);
 }
 
+/* Footer general y pie de página */
 footer {
     width: 100%;
     padding: var(--space-xs);
@@ -123,6 +134,7 @@ footer {
     font-size: var(--font-size-body);
 }
 
+/* Estilo del título de la sección de contacto */
 .Contacto_h2 {
     margin-bottom: var(--space-md);
     color: var(--color-primary);
@@ -132,6 +144,7 @@ footer {
     text-align: center;
 }
 
+/* Formulario de consulta */
 form {
     margin: 0 var(--space-lg);
     padding: var(--space-xs);
@@ -140,6 +153,7 @@ form {
     font-size: 1.5rem;
 }
 
+/* Campos del formulario */
 input, textarea {
     width: 100%;
     margin: var(--space-xs) 0;
@@ -148,11 +162,13 @@ input, textarea {
     border-radius: var(--radius-control);
 }
 
+/* Botones del formulario */
 .guardar, .cancelar {
     padding: 8px 14px;
     font-size: 1rem;
 }
 
+/* Responsive para tablets y pantallas medianas */
 @media (max-width: 768px) {
     body {
         padding-top: 80px;
@@ -195,6 +211,7 @@ input, textarea {
     }
 }
 
+/* Responsive para celulares */
 @media (max-width: 600px) {
     body {
         padding-top: 64px;
